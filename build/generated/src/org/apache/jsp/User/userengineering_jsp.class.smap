@@ -1,0 +1,20 @@
+SMAP
+userengineering_jsp.java
+JSP
+*S JSP
+*F
++ 0 Ustructure.jsp
+User/Ustructure.jsp
++ 1 userengineering.jsp
+User/userengineering.jsp
++ 2 Footer.jsp
+User/../CommanComponents/Footer.jsp
+*L
+1,104:50
+1#1,6:154
+7:160,2
+8,5:162
+13:167,2
+14,115:169
+1#2,46:283
+*E

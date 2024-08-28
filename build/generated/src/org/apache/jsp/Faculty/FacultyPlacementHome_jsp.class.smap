@@ -1,0 +1,52 @@
+SMAP
+FacultyPlacementHome_jsp.java
+JSP
+*S JSP
+*F
++ 0 FacultyDashStruct.jsp
+Faculty/FacultyDashStruct.jsp
++ 1 FacultyPlacementHome.jsp
+Faculty/FacultyPlacementHome.jsp
++ 2 AdminPlacementyear.jsp
+Faculty/../Admin/AdminPlacementyear.jsp
++ 3 AdminPlacementBranch.jsp
+Faculty/../Admin/AdminPlacementBranch.jsp
++ 4 AdminPlacementTopten.jsp
+Faculty/../Admin/AdminPlacementTopten.jsp
+*L
+1,161:52
+1#1,118:212
+118,2:330
+119,49:332
+167,3:381
+169,51:384
+219,3:435
+221,173:438
+393,8:611
+401,2:620
+402,2:622
+1#2,129:624
+131,6:755
+136:761
+137,3:762,3
+140,19:771
+403#1,2:789
+404,3:791
+406,2:794
+5#3,116:796
+122,6:914
+127,2:920
+129,3:922,3
+132,17:931
+407#1,2:947
+408,3:949
+410,2:952
+5#4,116:954
+122,5:1072
+126,2:1077
+128,4:1079,3
+132,18:1091
+411#1,2:1108
+412,2:1110
+413,40:1112
+*E

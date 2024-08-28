@@ -1,0 +1,22 @@
+SMAP
+UserGenTraining1_jsp.java
+JSP
+*S JSP
+*F
++ 0 UserGenTraining1.jsp
+User/UserGenTraining1.jsp
++ 1 UserDashStruct.jsp
+User/UserDashStruct.jsp
+*L
+5,4:49
+1#1,146:52
+8#0,13:198
+21,3:212
+23:215
+24:216,3
+25:219
+26:220,3
+27,139:223
+166,52:363
+217,19:415
+*E

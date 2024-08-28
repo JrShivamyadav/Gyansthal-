@@ -1,0 +1,285 @@
+body{
+    overflow-x: hidden;
+    background: aliceblue;
+}
+
+.header{
+    min-height:35px;
+    background:black;
+}
+
+.a2{
+   min-height: 35px;
+    position: sticky;
+    left: 0;
+    top: 0; 
+    border-bottom: 1px solid gray;
+    z-index: 3;
+    background-color: white;
+}
+ 
+.a2 a{
+    margin-left:30px;
+    float: left;
+}
+
+.a2 .fa{
+    color:black;line-height:2.3;font-size:17px;
+} 
+.a2 i{
+  font-size: 25px;
+  margin-left: -30px;
+  font-weight: bold;
+}
+
+.logo{
+    min-height:80px;
+}
+.top{
+    position: fixed;
+    bottom: 40px;
+    right: 60px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(102, 206, 244);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    text-decoration:none;
+    
+                  }
+  
+                  .top :hover {
+                      text-decoration: none;
+    color: black;
+  }
+.logo img{
+    height:70px;
+    width:100%;
+    margin:10px;
+}
+
+ .Dpheading h1{ 
+    font-size: 34px;
+    font-family: Algerian;
+    color: red;
+    font-weight: bold;
+    margin-top: 6%;
+     
+ }
+ .sidenav {
+    min-height: 100%; /* Full-height: remove this if you want "auto" height */
+     /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background: white; /* Black */
+     /* Disable horizontal scroll */
+    padding-top: 20px;
+    box-shadow: 5px 0px 4px gray;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 27px;
+    color: black;
+    display: block;
+    font-family: Gabriola;
+     
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: red;
+  }
+  
+  /* Style page content */
+  .main{
+    min-height:900px;
+   margin-left: 17%;
+
+  }
+    
+.sidenav i{
+  font-size: 18px;
+}
+
+    .footer{
+        min-height: 35px;
+        background: black;
+       
+          }
+          .footer p{
+            color: white;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            font-family: Gabriola;
+           
+          }
+  h1{
+    font-size: 40px;
+    font-family: Gabriola;
+    font-weight: bolder;
+    text-align: center;
+    color: red;
+   text-shadow: 5px 0px 4px gray;
+  }
+  .CSEContent{
+    margin-top: 5%;
+    min-height:450px;
+  }
+  .CSEContent p{
+    font-size: 22px;
+    font-family: Gabriola ;
+   font-weight: bolder;
+   text-align: justify;
+  }
+  .CSEimg{
+    margin-left: 0%;
+  }
+  .CSEimg img{
+    width: 90%;
+    height: 300px;
+    box-shadow: 5px 0px 4px gray;
+    
+  }
+  .faculty{
+    margin-top: 5%;
+
+  }
+   h1{
+    font-size: 40px;
+    font-family: Gabriola;
+    font-weight: bolder;
+    text-align: center;
+    color: red;
+    line-height: 2;
+  }
+  
+  
+  .faculty .box .desc {
+    background-color: red;
+    color: white;
+    margin-top: 337px;
+    min-height: 90px;
+  }
+  .faculty .box{
+    position: relative;
+    width:calc(320px - 30px);
+    height:calc(450px - 15px);
+    background:white;
+    float: left;
+    padding: 0px;;
+    margin: 25px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+    .faculty .box .icon{
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 94%;
+        transition: 0.7s;
+        z-index: 1;
+        
+
+    }
+     .box .desc h4{
+      margin-top:10px;
+   text-align:center;
+   color: white;
+    font-size: 27px;
+    font-family:Gabriola;
+   
+    line-height: 2;
+    }
+  .box .desc p{
+      font-family:Gabriola;
+    color:white;
+    font-size:20px;
+    text-align: center;
+ 
+    margin-top: -10%;
+    }
+        .faculty .box:hover .icon{
+            top:20px;
+            left: calc(50% - 40px);
+            width: 90px;
+            height:90px;
+            border-radius:50%;
+               
+        }
+        .faculty .box .content{
+    position: absolute;
+    top: 120px;
+    height:calc(100% - 100%);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity: 0;
+}
+.faculty .box .icon img{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            font-size: 60px;
+            transition: 0.5s;
+            color: #fff;
+            height:300px;
+            width:340px;
+            margin-top: -5%;
+            
+        }
+        .faculty .box:hover .icon img{
+            height: 90px;
+            width:90px;
+            border-radius:50%;
+            margin-top: 3%;
+            border: 3px solid red;
+        }
+.faculty .box:hover .content{
+    top: 100px;
+    opacity: 1;
+    
+    width: 100%;
+ 
+}
+.faculty .box .content i{
+   text-align:center;
+   color: red;
+    font-size: 22px;
+    font-family:Gabriola;
+    font-weight:bold;
+}
+.faculty .box .content span{
+   font-family:Gabriola;
+    color:black;
+    font-size:18px;
+    font-weight: bold;
+    margin-top: -2%;
+    }
+    .faculty .box:hover .desc{
+      min-height: 50px;
+      margin-top:  375px;
+
+    }
+    .faculty .box:hover .desc h4{
+      font-size: 18px;
+    }
+    .faculty .box:hover .desc p{
+      font-size: 15;
+    }
+
+   

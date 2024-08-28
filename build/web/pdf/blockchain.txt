@@ -1,0 +1,231 @@
+                                                                        ---------------BlockChain---------- 
+unit 2-
+          blockchain for enterprise--
+Enterprise blockchain technology helps to achieve coherent, effective and secure ways of doing business. To appreciate the role of blockchain, think of the mess that is transactions in business today. Modern business is a world of siloed repositories for data (see video for an apt example). Each organization keeps a separate copy of their data because there is no collective trust. Not only does this place companies at a data security risk. It is severely wasteful.
+
+Blockchain increases trust, security, transparency, and the traceability of data shared across a business network — and delivers cost savings with new efficiencies.
+
+          public VS enterprise ---
+A key difference between public and enterprise blockchain is their permission levels. To access enterprise blockchain -- also known as private blockchain -- approved users are granted access to a closed network via cryptographic keys that are assigned to them.
+
+          The main types of enterprise blockchains include:---------
+Public Blockchain. Public blockchains are open and permissionless, allowing anyone to join the network, participate in consensus, and validate transactions. ...
+Private Blockchain. ...
+Consortium Blockchain. ...
+Hybrid Blockchain. ...
+Federated Blockchain. ...
+Permissioned vs
+
+
+______________________________________________________________________________________________________________________
+unit 3-
+
+          ether in solidity--
+A unit is a metric scale but here in blockchain cryptocurrency, it refers to a denomination. Ether units are denominations that are used to pay for computational processes within EVM. In Solidity programming, a unit is a measurement of value or time that is used in the code.
+
+          receiving ether's---
+If you want your contract to receive Ether, you have to implement a receive Ether function (using payable fallback functions for receiving Ether is not recommended, since the fallback is invoked and would not fail for interface confusions on the part of the sender).
+______________________________________________________________________________________________________________________
+unit 4 -
+
+
+         What Is Distributed Ledger Technology (DLT)?------
+Distributed ledger technology (DLT) is the technological infrastructure and protocols that allow simultaneous access, validation, and record updating across a networked database. DLT is the technology blockchains are created from, and the infrastructure allows users to view any changes and who made them, reduces the need to audit data, ensures data is reliable, and only provides access to those that need it.
+
+         uses---
+Record transactions. 
+secure identities
+collect votes
+enter contracts
+demonstrate ownership
+
+         Pros-----
+Spreads systematic risk around, minimizing the risk of a single point of failure
+Has greater security due to cryptographic algorithms
+Allows for transparency and visibility into operations
+May prove to be more efficient due to smart contract automation
+Offers individuals with limited access to traditional systems potentially greater capabilities
+
+        Cons--------
+Is more complex compared to more traditional ledger solutions
+Often requires higher energy consumption for operation
+May have difficult scaling as more users/transactions occur
+Still remains risky due to lack of regulation
+May prove to be difficult to reverse fraudulent or erroneous activity
+
+       Challenges -----
+A regulator observed that possible issues and threats related to DLT technology include cyber-attacks, potential performance challenges of the technology and the higher degree of interconnectedness that DLT could lead to, potentially raising market volatility risks.
+slower processing capabilities or higher costs of use.
+_____________________________________________________________________________________________________________________
+unit 5 -
+
+       solidity- language of smart contracts ----
+Solidity is an object-oriented programming language created specifically by the Ethereum Network team for constructing and designing smart contracts on Blockchain platforms. It's used to create smart contracts that implement business logic and generate a chain of transaction records in the blockchain system.
+
+A contract in the sense of Solidity is a collection of code (its functions) and data (its state) that resides at a specific address on the Ethereum blockchain. The line uint storedData; declares a state variable called storedData of type uint (unsigned integer of 256 bits).
+
+        5-Step Tutorial: How to Write a Smart Contract in Solidity--------
+Step 1: Set Up Remix.
+Step 2: Write the Smart Contract Code in Solidity.
+Step 3: Set Up MetaMask.
+Step 4: Get Testnet Tokens.
+Step 5: Compile and Deploy the Solidity Smart Contract.
+____________________________________________________________________________________________________________________________
+           Application--------
+       ___________________                                                                    
+What are the top applications of blockchain technology?--------------------
+
+Cryptocurrency.
+Healthcare.
+Finance and banking.
+Real estate.
+Retail.
+Supply chain and logistics.
+Insurance.
+Voting and governance.
+_____________________________________________________________________________________________________________________
+
+         IoT with blockchain?-----------------------
+
+IoT enables devices across the Internet to send data to private blockchain networks to create tamper-resistant records of shared transactions. IBM Blockchain enables your business partners to share and access IoT data with you — but without the need for central control and management. Each transaction can be verified to prevent disputes and build trust among all permissioned network members.
+
+         Benefits of IoT and blockchain
+
+1.Build trust in your IoT data
+2.Rely on added security
+3.Gain greater flexibility
+4.Generate new efficiencies
+_____________________________________________________________________________________________________________________
+          Medical record management System-------
+Role----    Blockchain technology makes the transition to interoperability led by patients easier as it allows patients to make their medical data accessible and access laws. This gives a patient greater power over personal information and improves confidentiality and privacy.
+
+How used-----The method combines IoMT (Internet of Medical Things) and blockchain to encrypt and save the user's health information. First, multiple smart sensors collect the user's health recording, and then encrypted health data will be stored in the nodes of the Ethereum blockchain, thus protecting the privacy of users.
+
+Blockchains are commonly used in healthcare to offer a comprehensive view of patient records and manage consent for data sharing. Patients have full control over their records – they are notified when their data is updated, and they can share full or partial records with doctors, researchers, and others
+
+
+
+______________________________________________________________________________________________________________________
+
+What are blockchain domain names?-------------
+
+Blockchain domain names are addresses used for sending and receiving cryptocurrency, similar to email addresses. They are stored on a public ledger, accessible to anyone, and secured through a smart contract. An example would be dappradar.eth.
+
+Future of blockchain------------------------------
+
+According to a forecast by research firm Gartner, by 2026 the business value added by blockchain will increase to over $360 billion. Then, by 2030, that will increase to more than $3.1 trillion. With current and future trends, blockchain is predicted to make a big revolution in the coming decades.
+_____________________________________________________________________________________________________________________
+
+What Is an Altcoin?---------------------------
+
+Altcoins are generally defined as all cryptocurrencies other than Bitcoin (BTC). However, some people consider altcoins to be all cryptocurrencies other than Bitcoin and Ethereum (ETH) because most cryptocurrencies are forked from one of the two. Some altcoins use different consensus mechanisms to validate transactions, open new blocks, or attempt to distinguish themselves from Bitcoin and Ethereum by providing new or additional capabilities or purposes.
+
+_____________________________________________________________________________________________________________________
+
+What are the Benefits of Blockchain in Finance?-------------------
+
+The Ethereum blockchain enables more open, inclusive, and secure business networks, shared operating models, more efficient processes, reduced costs, and new products and services in banking and finance. It enables digital securities to be issued within shorter periods of time, at lower unit costs, with greater levels of customization. 
+1.Security.
+2.Transparency.
+3.Trust.
+4.Programmability.
+5.Privacy.
+6.High-Performance.
+7.Scalability.
+_____________________________________________________________________________________________________________________
+ blockchain in finance(payment and secure trading)--------
+Blockchain enables real-time, multi-party tracking and management of bank guarantees and letters of credit. Depend on faster and more accurate reporting with an automated compliance process that draws on immutable data records.
+
+With blockchain, one can: Transfer funds from one country to another very quickly. Blockchain payment systems can reduce payment processing time from days to a few hours. Reduce the intermediaries in the payment process, as blockchain ensures the authenticity of payments with a high degree of transparency.
+
+The method of authenticating a cross-border payment can take days. Blockchain simplifies this payment process. Using a decentralized network removes the need for multiple intermediaries to authenticate and process transactions. A payment is authenticated in real time against data contained in a blockchain
+
+Blockchain can be used to track goods throughout the supply chain and relay information to and from the owner. Information is digitized, and transactions can be completed without an intermediary. 'Smart contracts' can automatically activate commercial actions.
+
+Smart contracts are at the heart of blockchain technology and can revolutionize trade finance processes in many ways. Their key benefits include: Transparency of the transaction's real-time status. Speed of shipping initiation and a shorter trade cycle.
+
+
+_____________________________________________________________________________________________________________________
+
+Compliance------------
+Global developments within the domains of Anti-Money Laundering (AML) and Combatting the Financing of Terrorism (CFT) are complex and costly for financial institutions (FIs) to both interpret and implement within their own internal processes. 
+_____________________________________________________________________________________________________________________
+
+mortgages-------------
+
+Blockchain technology can help eradicate all the key issues in mortgage origination by means of distributed ledger framework, which provides a list of benefits and capabilities:
+
+Multi-party transactions with decentralization capabilities--------
+
+No intermediaries
+Security assurance
+Improved transparency
+Lower transaction costs
+Covert from a centralized to a distributed trust
+Empower automation using smart contracts
+_____________________________________________________________________________________________________________________
+
+Blockchain in Supply Chain Management------------------
+
+Supply chains underpin the macroeconomy and global markets. Enterprise Ethereum provides next-generation solutions to achieve the interoperable exchange of transaction information, transaction history, and transaction statements in compliance with industry standards.
+
+What are the Benefits of Blockchain in Supply Chain Management?----------------------
+
+Blockchain technology coupled with the ability to program business logic with the use of smart contracts enables the following:
+Transparency into the provenance of consumer goods— from the source point to end consumption
+Accurate asset tracking
+Enhanced licensing of services, products, and software
+_____________________________________________________________________________________________________________________
+
+Blockchain in Government------------------------------
+
+The role of blockchain in government services– when these core areas are used either in combination or individually – affect plethora of areas, with three of being the most nation–impacting ones.
+
+A. Building trust with its citizens
+B. Protection of sensitive data
+C. Improvement in efficiency and reduction of costs
+
+benefit of government by blockchain-------------
+Increase Trust
+Reduce Risk
+Increase Auditability
+Cut Overhead
+_____________________________________________________________________________________________________________________
+Government use cases----------------
+
+A distributed ledger can help governments manage payments, deeds and transactions, personal data, and more. It offers a new way to maintain records and build trust with the public. Next, we’re going to dive a little deeper into some specific use cases.
+
+1.Public Health & Safety
+2.Tax & Customs
+3.Education
+4.Transactions & Payments
+_____________________________________________________________________________________________________________________
+
+blockchain in government (Advantages)------------
+
+1-Increase Trust----
+Governments around the world hold enormous amounts of data—voting records, tax information, and property details. Securing data and protecting against cyber hacks is one of the core values of blockchain technology. But security isn’t enough. Transactions occur and records change. The blockchain allows governments to create irrefutable logs all parties can trust.
+
+2-Reduce Risk-----
+The ability to verify transactions, track funds, and create a single source of truth is driving the public sector toward blockchain technology to cut waste and stop corruption. Decentralization also removes single points of failure and makes it harder for bad actors to obtain valuable information or interrupt valuable services.
+
+3-Increase Auditability-----
+Spending money with accountability is a classic challenge that governments face. One study found a third of government assets were tied to federal entities unable to issue audited statements. This lack of accountability leads to misuse of funds. The distributed ledger creates a public record that is traceable and transparent.
+
+4-Cut Overhead-----
+The U.S. government, according to the Center on Budget and Policy Priorities, spends $18.4 billion annually on administrative costs. Some charitable organizations spend as much as 35 percent of funds on administration. What public good is possible if less money is spent on the maintenance of files and more on real programs? With blockchain, the public sector gains irrefutable traceability and removes human error.
+
+_____________________________________________________________________________________________________________________
+
+Blockchain in Digital Identity--------------
+
+what is digital identity?
+A digital identity arises organically from the use of personal information on the web and from the shadow data created by the individual’s actions online. A digital identity may be a pseudonymous profile linked to the device’s IP address, for example, a randomly-generated unique ID. Data points that can help form a digital identity include usernames and passwords, drivers license number, online purchasing history, date of birth, online search activities, medical history, etc. Biometrics, Behavioral, Biographic are the modals that make up a person’s identity.
+
+The traditional identity systems of today are fragmented, insecure, and exclusive. Blockchain enables more secure management and storage of digital identities by providing unified, interoperable, and tamper-proof infrastructure with key benefits to enterprises, users, and IoT management systems.
+
+Blockchain identity management systems could be used to eradicate current identity issues such as 
+
+Inaccessibility
+Data insecurity
+Fraudulent identities

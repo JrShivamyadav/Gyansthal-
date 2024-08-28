@@ -1,0 +1,20 @@
+SMAP
+Facultyart_jsp.java
+JSP
+*S JSP
+*F
++ 0 Fstructure.jsp
+Faculty/Fstructure.jsp
++ 1 Facultyart.jsp
+Faculty/Facultyart.jsp
++ 2 Footer.jsp
+Faculty/../CommanComponents/Footer.jsp
+*L
+1,100:50
+1#1,6:150
+7:156,2
+8,5:158
+13:163,2
+14,235:165
+1#2,46:399
+*E

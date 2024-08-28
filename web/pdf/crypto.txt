@@ -1,0 +1,186 @@
+                                                                            SSL  ------------
+                                                                            __________
+
+Secure Socket Layer (SSL) provides security to the data that is transferred between web browser and server. SSL encrypts the link between a web server and a browser which ensures that all data passed between them remain private and free from attack. 
+
+Secure Socket Layer Protocols:
+__________________________
+
+SSL record protocol
+Handshake protocol
+Change-cipher spec protocol
+Alert protocol
+
+SSL Record Protocol ---------
+______________________
+
+SSL Record provides two services to SSL connection. 
+1- SSL Record Protocol: 
+2- SSL Record provides two services to SSL connection. 
+
+Handshake Protocol: ------
+_____________________
+
+Handshake Protocol is used to establish sessions. This protocol allows the client and server to authenticate each other by sending a series of messages to each other. Handshake protocol uses four phases to complete its cycle. 
+
+Phase-1: In Phase-1 both Client and Server send hello-packets to each other. In this IP session, cipher suite and protocol version are exchanged for security purposes. 
+Phase-2: Server sends his certificate and Server-key-exchange. The server end phase-2 by sending the Server-hello-end packet. 
+Phase-3: In this phase, Client replies to the server by sending his certificate and Client-exchange-key. 
+Phase-4: In Phase-4 Change-cipher suite occurs and after this the Handshake Protocol ends. 
+
+
+The SSL certificate has several important characteristics that make it a reliable solution for securing online transactions:--------
+____________________________________________________________________________________________________
+
+Encryption:
+Authentication: 
+Integrity: 
+Non-repudiation:
+Public-key cryptography:
+Session management:
+Certificates issued by trusted CAs:
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                TLS-----------------
+                                                               __________________
+ 
+Transport Layer Securities (TLS) are designed to provide security at the transport layer. TLS was derived from a security protocol called Secure Socket Layer (SSL). TLS ensures that no third party may eavesdrop or tampers with any message. 
+
+There are several benefits of TLS:
+___________________________ 
+
+Encryption: 
+TLS/SSL can help to secure transmitted data using encryption.
+Interoperability: 
+TLS/SSL works with most web browsers, including Microsoft Internet Explorer and on most operating systems and web servers.
+Algorithm flexibility: 
+TLS/SSL provides operations for authentication mechanism, encryption algorithms and hashing algorithm that are used during the secure session.
+Ease of Deployment: 
+Many applications TLS/SSL temporarily on a windows server 2003 operating systems.
+Ease of Use: 
+Because we implement TLS/SSL beneath the application layer, most of its operations are completely invisible to client. 
+
+Working of TLS: 
+_____________
+The client connect to server (using TCP), the client will be something. The client sends number of specification: 
+
+1-Version of SSL/TLS.
+2-which cipher suites, compression method it wants to use. 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                    S-HTTP------------
+                                                                                 ________________
+
+S-HTTP is the abbreviation for Secure Hypertext Transfer Protocol. S-HTTP is an Internet protocol and was developed in 1995. This Internet protocol defines an encrypted data transfer via Hypertext Transfer Protocol (HTTP) between web browser and web server.
+ With this protocol, secure data transmission is carried out via HTTP.
+
+Data transmission S-HTTP First----------
+______________________________
+ the client sends a request to the server. The request contains all HTTP details. A distinction is made between sending and receiving data. Details are given about which options the client uses when sending the data and which options the server needs for receiving this data. To decrypt the message, the recipient of the message must analyze its header to determine which encryption method was used.
+ 
+Difference between S-HTTP and HTTPS------------
+_______________________________________
+The Secure Hypertext Transfer Protocol should not be confused with the Hyptertext Transfer Protocol Secure. The difference between these two protocols is that with S-HTTP, encryption is applied to each request, whereas with HTTPS, data is encrypted and securely exchanged between server and client via an SSL/ TSL tunnel. More common today is the use of HTTP-S (Hypertext Transfer Protocol Secure).
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                                          Time Stamping Protocols:-------------------
+                                                           _________________________________
+The timestamp protocols ensures that each transaction in the system has in advance a timestamp that has been associated with each transaction that is being helpful to the transaction to be executed in the system that time only.
+It is most helpful in the case when large number of concurrent processes are running in the system simultaneously. So, it assign a unique timestamp to each transaction in the system with the help of ts counter.
+
+ts counter:--------------
+___________________
+ts counter is a counter that is used for time-stamping protocols. It increment its value by 1 when each commit operation has been occur in the system. If a transaction Ti has been assigned timestamp TS[Ti], and a new transaction enters in the system, then it must hold a condition that TS[Ti]<TS[Ti]
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                         Secure Electronic Transaction (SET) Protocol---------------
+                                                        _____________________________________________
+Secure Electronic Transaction or SET is a system that ensures the security and integrity of electronic transactions done using credit cards in a scenario. SET is not some system that enables payment but it is a security protocol applied to those payments. It uses different encryption and hashing techniques to secure payments over the internet done through credit cards. The SET protocol was supported in development by major organizations like Visa, Mastercard, and Microsoft which provided its Secure Transaction Technology (STT), and Netscape which provided the technology of Secure Socket Layer (SSL). 
+
+SET protocol restricts the revealing of credit card details to merchants thus keeping hackers and thieves at bay. The SET protocol includes Certification Authorities for making use of standard Digital Certificates like X.509 Certificate. 
+
+Participants in SET: -------------------
+___________________________
+In the general scenario of online transactions, SET includes similar participants: 
+
+Cardholder – customer
+Issuer – customer financial institution
+Merchant
+Acquirer – Merchant financial
+Certificate authority – Authority that follows certain standards and issues certificates(like X.509V3) to all other participants.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                   SSL VS SET------------------
+                                                                                ________________________
+
+1 .
+Basics-
+SSL is an encryption mechanism for order taking, queries, and other applications and is available on the customer’s browser. It does not protect against all security hazards and is naturally simple and widely used. SSL is a protocol for general-purpose secure message exchange. SSL protocol may use a certificate, but the payment gateway is not available. So, the merchant needs to receive both the ordering information and credit card information because the capturing process should be generated by the merchant. SSL protocol has been the industry standard for securing internet communication.
+
+SET is a very comprehensive protocol. It provides privacy, integration, and authenticity. It is not used frequently due to its complexity and the need for a special card reader by the user. It may be abandoned if it is not simplified. SET is tailored to the credit card payment to the merchant. SET protocols hide the customer’s credit card information from merchant and also hides the order information from banks to protect privacy called a dual signature. The SET protocol is complex and more secure. 
+
+2.
+developed by-
+SSL protocol was developed by Netscape for the secure online transaction.
+
+The SET protocol was jointly developed by MasterCard and visa to secure web browsers for a bank card transaction.
+
+3.
+working-
+SSL uses a combination of public-key and symmetric-key encryption to safeguard data transactions. The handshake technique is used by the SSL protocol, which permits the server to verify its identity to the client. In case of unsuccessful authentication, the connection will not be formed.
+
+The dual signature mechanism is deployed by SET to safeguard a transaction. To use an e-commerce site, SET requires the purchase of software. The design of the protocol necessitates the client’s installation of an e-wallet.
+
+4.	
+Integrity-
+The technique of Hash functions is used for this purpose.
+
+The technique of digital signatures is used for this purpose.
+
+5.	
+Acceptability-
+Its acceptability is more as compared to SET.
+
+SET acceptability is less because it’s necessary to build an open PKI.
+
+6.	
+Functionality-
+The Secure Sockets Layer (SSL) is not a payment protocol. SSL encrypts the communication channel between the cardholder and the merchant website and is not backed by any financial institution. As a result, SSL is unable to ensure the security of a transaction.
+
+SET was created with the sole purpose of securing and ultimately guaranteeing a payment transaction. For example, increase in the possibilities for online retail growth only when consumer confidence grows in online shopping.
+
+7.	
+Encryption-
+The purpose of SSL lies in prevention of data tampering in client/server applications and has considerably weaker encryption, with a maximum of 128-bit encryption.
+
+SET, which was created expressly to address the security of all parties involved in an electronic payment transaction, uses 1024-bit encryption throughout the transaction.
+
+8.	
+Authentication- 
+ SSL certificates are not endorsed by any financial institution or payment brand association, so they cannot effectively validate all parties.
+
+Here, all parties get authentication to the transaction because SET’s certificates are backed not just by a Certificate Authority, but also by financial institutions and MasterCard International.
+
+9.	
+Security-
+SSL only protects the cardholder and the merchant, which is insufficient to prevent fraud. SSL transactions, in other words, are never assured.
+
+SET enables transaction security from the cardholder’s desktop to the merchant via bank approvals and back through the gateway, leaving an indisputable audit trail and, as a result, a guaranteed transaction.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                 Email Security:------------
+                                                                            ______________________
+Basically, Email security refers to the steps where we protect the email messages and the information that they contain from unauthorized access, and damage. It involves ensuring the confidentiality, integrity, and availability of email messages, as well as safeguarding against phishing attacks, spam, viruses, and another form of malware.  It can be achieved through a combination of technical and non-technical measures.
+
+An email security policy should include the following essential components:
+
+1.Appropriate Use.
+2.Password and Authentication.
+3.Encryption.
+4.Virus Protection.
+5.Retention and Detection.
+6.Training.
+7.Incident Reporting.
+8.Monitoring.
+9.Compliance.
+10.Enforcement.

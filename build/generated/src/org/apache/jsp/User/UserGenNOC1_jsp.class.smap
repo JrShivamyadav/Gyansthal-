@@ -1,0 +1,20 @@
+SMAP
+UserGenNOC1_jsp.java
+JSP
+*S JSP
+*F
++ 0 UserGenNOC1.jsp
+User/UserGenNOC1.jsp
++ 1 UserDashStruct.jsp
+User/UserDashStruct.jsp
+*L
+5,2:49
+1#1,146:51
+7#0,53:197
+60,4:251
+63,7:255
+70:262,3
+71,9:265
+80:274,3
+81,174:277
+*E

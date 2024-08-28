@@ -1,0 +1,29 @@
+SMAP
+test_jsp.java
+JSP
+*S JSP
+*F
++ 0 Ustructure.jsp
+User/Ustructure.jsp
++ 1 test.jsp
+User/test.jsp
++ 2 Userfooter.jsp
+User/Userfooter.jsp
+*L
+1,104:50
+1#1,110:154
+111,55:265
+165,2:320
+167,3:322,3
+170,4:331,5
+174:351,3
+175,4:354
+180,4:360
+183,8:364
+191,3:372,3
+194,6:381
+201,33:389
+233,5:422
+5#2,60:426
+237#1:486
+*E

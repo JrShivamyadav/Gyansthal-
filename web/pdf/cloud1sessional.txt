@@ -1,0 +1,73 @@
+TYPES OF CLOUD COMPUTING-----------
+_________________________________
+
+Public Cloud------------
+Public cloud is open to all to store and access information via the Internet using the pay-per-usage method.
+In public cloud, computing resources are managed and operated by the Cloud Service Provider (CSP). The CSP looks after the supporting infrastructure and ensures that the resources are accessible to and scalable for the users.
+Due to its open architecture, anyone with an internet connection may use the public cloud, regardless of location or company size. Users can use the CSP's numerous services, store their data, and run apps. By using a pay-per-usage strategy, customers can be assured that they will only be charged for the resources they actually use, which is a smart financial choice.
+Example:-- Amazon elastic compute cloud (EC2), IBM SmartCloud Enterprise, Microsoft, Google App Engine, Windows Azure Services Platform.
+
+Private Cloud--------------------
+Private cloud is also known as an internal cloud or corporate cloud. It is used by organizations to build and manage their own data centers internally or by the third party. It can be deployed using Opensource tools such as Openstack and Eucalyptus.
+Examples:-- VMware vSphere, OpenStack, Microsoft Azure Stack, Oracle Cloud at Customer, and IBM Cloud Private.
+
+Hybrid Cloud---------------------
+Hybrid Cloud is a combination of the public cloud and the private cloud. we can say:
+Hybrid cloud is partially secure because the services which are running on the public cloud can be accessed by anyone, while the services which are running on a private cloud can be accessed only by the organization's users. In a hybrid cloud setup, organizations can leverage the benefits of both public and private clouds to create a flexible and scalable computing environment. The public cloud portion allows using cloud services provided by third-party providers, accessible over the Internet.
+Example:-- Google Application Suite (Gmail, Google Apps, and Google Drive), Office 365 (MS Office on the Web and One Drive), Amazon Web Services.
+
+Community Cloud---------------
+Community cloud allows systems and services to be accessible by a group of several organizations to share the information between the organization and a specific community. It is owned, managed, and operated by one or more organizations in the community, a third party, or a combination of them.
+In a community cloud setup, the participating organizations, which can be from the same industry, government sector, or any other community, collaborate to establish a shared cloud infrastructure. This infrastructure allows them to access shared services, applications, and data relevant to their community.
+Example:-- Health Care community cloud
+
+Issues in cloud computing---------------------
+These are major issues in Cloud Computing: 
+1. Privacy: 
+2. Compliance.
+3. Security.
+4. Sustainability.
+5. Abuse.
+6. Higher Cost.
+7. Recovery of lost data in contingency.
+8. Upkeeping(management) of Cloud.
+9. Lack of resources/skilled expertise.
+10. Pay-per-use service charges.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Architecture of cloud computing---------------
+Cloud computing architecture is a combination of service-oriented architecture and event-driven architecture.
+Cloud computing architecture is divided into the following two parts ---
+1)  Front End
+2) Back End
+
+Front End--------------
+The front end is used by the client. It contains client-side interfaces and applications that are required to access the cloud computing platforms. The front end includes web servers (including Chrome, Firefox, internet explorer, etc.), thin & fat clients, tablets, and mobile devices.
+
+Back End---------------
+The back end is used by the service provider. It manages all the resources that are required to provide cloud computing services. It includes a huge amount of data storage, security mechanism, virtual machines, deploying models, servers, traffic control mechanisms, etc.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Software as a Service | SaaS-------------------
+SaaS is also known as "On-Demand Software." It is a software distribution model in which services are hosted by a cloud service provider. These services are available to end-users over the internet, so the end-users do not need to install any software on their devices to access these services.
+benefits-----------
+1. SaaS is easy to buy.
+2. One to Many.
+3. Less hardware required for SaaS.
+4. Low maintenance required for SaaS.
+5. No special software or hardware versions are required
+6. Multidevice support.
+7. API Integration.
+8. No client-side installation.
+
+Platform as a Service | PaaS---------------------
+Platform as a Service (PaaS) provides a runtime environment. It allows programmers to easily create, test, run, and deploy web applications. You can purchase these applications from a cloud service provider on a pay-as-per-use basis and access them using an Internet connection. In PaaS, back-end scalability is managed by the cloud service provider, so end-users do not need to worry about managing the infrastructure.
+PaaS includes infrastructure (servers, storage, and networking) and platform (middleware, development tools, database management systems, business intelligence, and more) to support the web application life cycle.
+Examples:--Google App Engine, Force.com, Joyent, Azure.
+
+Advantages of PaaS-----------
+1) Simplified Development.
+2) Lower risk.
+3) Prebuilt business functionality
+

@@ -1,0 +1,21 @@
+SMAP
+UserViewProfile_jsp.java
+JSP
+*S JSP
+*F
++ 0 UserDashStruct.jsp
+User/UserDashStruct.jsp
++ 1 UserViewProfile.jsp
+User/UserViewProfile.jsp
+*L
+1,146:49
+1#1,88:195
+89,15:284
+103,3:299
+106:302,5
+107,6:307,3
+113,4:325
+117:329,3
+118,16:332
+133,4:348
+*E

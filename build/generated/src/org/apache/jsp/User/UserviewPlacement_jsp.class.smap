@@ -1,0 +1,52 @@
+SMAP
+UserviewPlacement_jsp.java
+JSP
+*S JSP
+*F
++ 0 UserDashStruct.jsp
+User/UserDashStruct.jsp
++ 1 UserviewPlacement.jsp
+User/UserviewPlacement.jsp
++ 2 AdminPlacementyear.jsp
+User/../Admin/AdminPlacementyear.jsp
++ 3 AdminPlacementBranch.jsp
+User/../Admin/AdminPlacementBranch.jsp
++ 4 AdminPlacementTopten.jsp
+User/../Admin/AdminPlacementTopten.jsp
+*L
+1,146:52
+1#1,132:198
+132,2:330
+133,49:332
+181,3:381
+183,50:384
+232,3:434
+234,174:437
+407,8:611
+415,2:620
+416,2:622
+1#2,129:624
+131,6:755
+136:761
+137,3:762,3
+140,19:771
+417#1,2:789
+418,3:791
+420,2:794
+5#3,116:796
+122,6:914
+127,2:920
+129,3:922,3
+132,17:931
+421#1,2:947
+422,3:949
+424,2:952
+5#4,116:954
+122,5:1072
+126,2:1077
+128,4:1079,3
+132,18:1091
+425#1,2:1108
+426,2:1110
+427,40:1112
+*E

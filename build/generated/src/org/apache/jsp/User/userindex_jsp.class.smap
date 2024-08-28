@@ -1,0 +1,29 @@
+SMAP
+userindex_jsp.java
+JSP
+*S JSP
+*F
++ 0 userindex.jsp
+User/userindex.jsp
++ 1 AllBootstrapLinks.jsp
+User/../CommanComponents/AllBootstrapLinks.jsp
++ 2 NavBar2.jsp
+User/../CommanComponents/NavBar2.jsp
++ 3 Footer.jsp
+User/../CommanComponents/Footer.jsp
+*L
+1,7:51
+1#1,6:58
+7#0,31:64
+5#2,92:94
+37#0,40:185
+76,23:225
+99,6:249
+104,5:255
+109:260,5
+110,3:265
+113,5:269
+117,112:274
+1#3,47:385
+228#0,5:431
+*E

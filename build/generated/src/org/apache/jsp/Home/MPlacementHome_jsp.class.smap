@@ -1,0 +1,56 @@
+SMAP
+MPlacementHome_jsp.java
+JSP
+*S JSP
+*F
++ 0 Mstructure.jsp
+Home/Mstructure.jsp
++ 1 MPlacementHome.jsp
+Home/MPlacementHome.jsp
++ 2 AdminPlacementyear.jsp
+Home/../Admin/AdminPlacementyear.jsp
++ 3 AdminPlacementBranch.jsp
+Home/../Admin/AdminPlacementBranch.jsp
++ 4 AdminPlacementTopten.jsp
+Home/../Admin/AdminPlacementTopten.jsp
++ 5 Footer.jsp
+Home/../CommanComponents/Footer.jsp
+*L
+1,108:53
+1#1,100:161
+100,2:261
+101,50:263
+150,3:313
+152,53:316
+204,3:369
+206,66:372
+271,8:438
+279,2:447
+280,2:449
+1#2,129:451
+131,6:582
+136:588
+137,3:589,3
+140,19:598
+281#1,2:616
+282,3:618
+284,2:621
+5#3,116:623
+122,6:741
+127,2:747
+129,3:749,3
+132,17:758
+285#1,2:774
+286,3:776
+288,2:779
+5#4,116:781
+122,5:899
+126,2:904
+128,4:906,3
+132,18:918
+289#1,2:935
+290,2:937
+291,12:939
+1#5,47:951
+302#1,29:997
+*E
